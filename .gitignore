@@ -1,0 +1,370 @@
+# =============================================================================
+# PYTHON
+# =============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pdm
+.pdm.toml
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# =============================================================================
+# IDEs e EDITORES
+# =============================================================================
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# =============================================================================
+# SISTEMA OPERACIONAL
+# =============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+
+# =============================================================================
+# DADOS E ARQUIVOS GRANDES
+# =============================================================================
+
+# Datasets grandes (mantenha apenas samples pequenos)
+data/raw/*.csv
+data/processed/*.csv
+data/external/*.csv
+*.xlsx
+*.xls
+*.h5
+*.hdf5
+*.nc
+*.netcdf
+*.pkl
+*.pickle
+*.parquet
+*.feather
+
+# Exceções: manter arquivos de exemplo pequenos
+!*sample*.csv
+!*example*.csv
+!*demo*.csv
+!plankton_sample.csv
+
+# =============================================================================
+# MACHINE LEARNING
+# =============================================================================
+
+# Modelos treinados (geralmente grandes)
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.pb
+models/*.onnx
+models/*.pth
+models/*.pt
+*.model
+
+# Exceções: manter modelos pequenos ou de exemplo
+!models/*example*
+!models/*sample*
+!models/*demo*
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Weights & Biases
+wandb/
+
+# TensorBoard logs
+runs/
+logs/
+lightning_logs/
+
+# =============================================================================
+# RELATÓRIOS E VISUALIZAÇÕES
+# =============================================================================
+
+# Relatórios HTML gerados automaticamente
+report/*.html
+reports/*.html
+
+# Imagens geradas (mantenha apenas as importantes)
+report/*.png
+report/*.jpg
+report/*.jpeg
+report/*.svg
+report/*.pdf
+reports/*.png
+reports/*.jpg
+reports/*.jpeg
+reports/*.svg
+reports/*.pdf
+
+# Exceções: manter imagens importantes
+!report/*final*
+!report/*summary*
+!reports/*final*
+!reports/*summary*
+
+# =============================================================================
+# NOTEBOOKS
+# =============================================================================
+
+# Outputs dos notebooks (limpar antes de commit)
+notebooks/*_executed.ipynb
+notebooks/*_output.ipynb
+
+# Checkpoints específicos do projeto
+notebooks/.ipynb_checkpoints/
+
+# =============================================================================
+# CACHE E TEMPORÁRIOS
+# =============================================================================
+
+# Cache geral
+.cache/
+cache/
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Arquivos de backup
+*.bak
+*.backup
+*~
+
+# =============================================================================
+# CONFIGURAÇÕES E SECRETS
+# =============================================================================
+
+# Arquivos de configuração sensíveis
+config/secrets.py
+config/local_settings.py
+.secrets
+secrets.json
+
+# Chaves de API
+*.key
+api_keys.txt
+
+# =============================================================================
+# ESPECÍFICO DO PROJETO
+# =============================================================================
+
+# Dados DWCA específicos (grandes)
+data/plankton_dwca/occurrence.txt
+data/plankton_dwca/multimedia.txt
+
+# Arquivos XML grandes
+*.xml
+!metadata.xml
+!meta.xml
+
+# Outputs de processamento
+processed_data/
+output/
+
+# =============================================================================
+# FERRAMENTAS DE ANÁLISE
+# =============================================================================
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# Profiling
+*.prof
+*.lprof
+
+# =============================================================================
+# DOCUMENTAÇÃO
+# =============================================================================
+
+# Sphinx
+docs/_build/
+docs/build/
+
+# mkdocs
+/site
+
+# =============================================================================
+# OUTROS
+# =============================================================================
+
+# Arquivos compactados
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Arquivos de log específicos
+*.out
+error.log
+debug.log
